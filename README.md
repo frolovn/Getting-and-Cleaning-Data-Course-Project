@@ -1,9 +1,17 @@
 # Getting and Cleaning Data Script
 
-Descpriotn of the `run_analysis.R` script:
+Description of the `run_analysis.R` script:
 
-1. Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Download and unzip the data archive, check if file/folder exists.
+
+2. Read, select `mean` and `std` values, and tidy up the features list from the file `features.txt`. 
+
+3. Read `test` and `train` data sets, read `IDs` and `Activities` tables, combine all in two data frames.
+
+4. Combine `test` and `train` data frame into single data frame, perform grouping by `ID` and `activity` and summarize using `mean` function.
+
+5. Read activities table from the `activity_labels.txt` file, tidy up the values and replace the activity ID in the summarized data frame with the corresponding activity label.
+
+6. Generate cleaned output "tidy.txt" file without row names and quotation marks.
+
+Note: Most of the steps of the script are also followed by descriptive comments insde the code itself.
