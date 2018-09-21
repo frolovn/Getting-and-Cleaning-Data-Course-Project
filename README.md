@@ -6,7 +6,7 @@ Description of the `run_analysis.R` script:
 
 2. Read, select `mean` and `std` values, and tidy up the features list from the `features.txt` file. 
 
-3. Read `test` and `train` data sets, read `IDs` and `Activities` tables, combine all in two data frames.
+3. Read `test` and `train` data sets, read `IDs` and `Activities` tables for each data set, combine all in two data frames.
 
 4. Combine `test` and `train` data frame into single data frame, perform grouping by `ID` and `activity` and summarize using `mean` function.
 
