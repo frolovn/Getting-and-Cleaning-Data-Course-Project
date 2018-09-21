@@ -8,7 +8,7 @@ Description of the `run_analysis.R` script:
 
 3. Read `test` and `train` data sets, read `IDs` and `Activities` tables for each data set, combine all in two data frames.
 
-4. Combine `test` and `train` data frames into single data frame, perform grouping by `ID` and `activity` and summarize using `mean` function.
+4. Combine `test` and `train` data frames into single data frame, perform grouping by `ID` and `activity` and summarize the values using `mean` function.
 
 5. Read activities table from the `activity_labels.txt` file, tidy up the values and replace the activity ID in the summarized data frame with the corresponding activity label.
 
