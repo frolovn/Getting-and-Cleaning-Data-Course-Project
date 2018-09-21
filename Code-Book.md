@@ -26,6 +26,8 @@ The labels are self explanatory and do not require any additional clarification.
 
 ## Evaluation Identifiers
 
+Prefix `t` to denote time, `f` to indicate frequency domain signal. Suffixes `X`, `Y`, `Z` are used to denote 3-axial signals in the X, Y and Z directions. `Acc` to denote accelerometer. `Gyr` to denote gyroscope. `Mean` indicates mean value, `StdD` indicates standard deviation.
+
 `tBodyAccMeanX`
 
 `tBodyAccMeanY`
