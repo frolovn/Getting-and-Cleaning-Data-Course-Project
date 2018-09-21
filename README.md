@@ -4,7 +4,7 @@ Description of the `run_analysis.R` script:
 
 1. Download and unzip the data archive `getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`, check if file/folder exists.
 
-2. Read, select `mean` and `std` values, and tidy up the features list from the file `features.txt`. 
+2. Read, select `mean` and `std` values, and tidy up the features list from the `features.txt` file. 
 
 3. Read `test` and `train` data sets, read `IDs` and `Activities` tables, combine all in two data frames.
 
